@@ -1,0 +1,58 @@
+
+#app{
+    border: 1px solid black;
+    padding: 10px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+body{
+    margin: 0px;
+
+}
+
+#Container{
+    width: 60vw;
+   display:flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+   /* border: 1px solid rgb(238, 11, 11); */
+   gap: 10px;
+   padding: 50px;
+}
+
+#Container img{
+    width: 300px;
+    width: calc(33.33% - 10px);
+    border-radius: 10px;
+    
+}
+
+
+#x{
+    display: none;
+    position: fixed;
+    top: 190px;
+    left: 920px;
+    z-index: 2;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    cursor: pointer;
+} 
+
+.enlarged{
+    cursor: default;
+    border: 300px solid rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* img:hover{
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+
+} */
